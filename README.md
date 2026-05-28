@@ -6,7 +6,7 @@ Applied NLP and clustering project that groups cybersecurity job-role text into 
 
 This project applies unsupervised learning to cybersecurity job-role data to build a **Governance Role Assigning Clustering Framework**. The notebook uses text preprocessing, TF-IDF vectorization, K-means clustering, silhouette score analysis, and hierarchical clustering visualization to identify natural role groupings across cybersecurity and technology governance work.
 
-The goal is to translate raw job-role text into interpretable governance domains such as:
+The purpose of the project is to translate raw cybersecurity job-role text into interpretable governance domains such as:
 
 - IT audit and assurance
 - Governance, risk, and compliance
@@ -15,7 +15,9 @@ The goal is to translate raw job-role text into interpretable governance domains
 - Program oversight
 - Leadership and management
 
-The project also includes a reinforcement learning section using Q-learning to compare two bots trained with different exploration rates.
+The current portfolio version focuses on **unsupervised learning, NLP preprocessing, K-means clustering, silhouette analysis, and hierarchical visualization** for governance role analysis.
+
+---
 
 ## Dataset Credit
 
@@ -25,11 +27,13 @@ This project uses the Kaggle dataset **Salary Cyber Security Jobs**, created by 
 - Dataset author / contributor: Danny Revaldo
 - Dataset link: https://www.kaggle.com/datasets/dannyrevaldo/salary-cyber-security-jobs
 
-Danny Revaldo is credited as the dataset author/data contributor for the cybersecurity job data used in the clustering analysis. The notebook, preprocessing workflow, clustering interpretation, governance role framework, reinforcement learning section, and portfolio framing were developed separately for academic and portfolio purposes.
+Danny Revaldo is credited as the dataset author/data contributor for the cybersecurity job data used in the clustering analysis. The notebook, preprocessing workflow, clustering interpretation, governance role framework, and portfolio framing were developed separately for academic and portfolio purposes.
+
+---
 
 ## Methods Used
 
-### Part I — Text Clustering
+### Text Clustering and Governance Role Analysis
 
 - Dataset loading and inspection with Pandas
 - Text column creation from cybersecurity job-role fields
@@ -43,20 +47,30 @@ Danny Revaldo is credited as the dataset author/data contributor for the cyberse
 - Top representative term extraction
 - Silhouette score testing from k = 2 to k = 20
 - Hierarchical clustering dendrogram for role-domain visualization
+- Governance role interpretation and cluster labeling
 
-### Part II — Reinforcement Learning
-
-- Q-learning simulation
-- Two-bot comparison: Simon vs. Olive
-- Exploration-rate parameter testing
-- Reward and step comparison
-- Gameplay/performance interpretation
+---
 
 ## Repository Structure
 
 ```text
 .
-├── Governance_Role_Clustering_Assignment4.ipynb
+├── Governance_Role_Clustering.ipynb
 ├── README.md
 ├── requirements.txt
+├── LICENSE
 └── .gitignore
+```
+
+---
+
+## Governance Interpretation
+
+The clustering model is interpreted as a governance role assignment framework. Job-role records that share similar terms and responsibilities are grouped into clusters, then translated into possible governance domains. This supports a workforce-analysis view of how cybersecurity responsibilities can be organized around risk, controls, evidence, compliance, remediation, and oversight.
+
+In practical terms, the project asks:
+
+- Which cybersecurity roles use similar language?
+- Which roles appear closest to governance, risk, compliance, audit, or assurance work?
+- What role domains naturally emerge from job-description text?
+- How can clustering support role assignment or workforce planning?
