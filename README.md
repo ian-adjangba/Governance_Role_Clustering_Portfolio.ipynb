@@ -101,7 +101,7 @@ Recommended visuals from the notebook for GitHub or portfolio use:
 
 ## Portfolio Description
 
-Built a governance-focused machine learning notebook that applies NLP, TF-IDF vectorization, K-means clustering, silhouette score analysis, and hierarchical clustering visualization to cybersecurity job-role data. The project groups similar cyber/GRC responsibilities into governance role domains such as audit, compliance, risk, security operations, and governance. A reinforcement learning extension compares how different learning rates affect Q-learning agent behavior and uses that comparison as a governance training policy analogy.
+This is a governance-focused machine learning notebook that applies NLP, TF-IDF vectorization, K-means clustering, silhouette score analysis, and hierarchical clustering visualization to cybersecurity job-role data. The project groups similar cyber/GRC responsibilities into governance role domains such as audit, compliance, risk, security operations, and governance. A reinforcement learning extension compares how different learning rates affect Q-learning agent behavior and uses that comparison as a governance training policy analogy.
 
 ## Tools and Libraries
 
